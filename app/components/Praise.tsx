@@ -8,7 +8,7 @@ interface PraiseProps {
 const Praise: React.FC<PraiseProps> = ({ name }) => {
   const [select, setSelect] = useState(false);
   const handleClick = () => {
-    setSelect(true)
+    setSelect(!select)
   };
   return (
     <div
