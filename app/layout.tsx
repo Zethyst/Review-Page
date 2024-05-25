@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
       <Script src="https://kit.fontawesome.com/e822fa5c46.js" crossOrigin="anonymous"></Script>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0&display=optional" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
